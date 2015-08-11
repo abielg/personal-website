@@ -1,0 +1,219 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face{
+  font-family: 'Proxima Nova Light';
+  src: url(asset-path('ProximaNova-Light.otf')) format('opentype');
+}
+
+@font-face{
+  font-family: 'Proxima Nova Bold';
+  src: url(asset-path('ProximaNova-Bold.otf')) format('opentype');
+}
+
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  min-width: 320px;
+  min-height: 600px;
+}
+
+body {
+  height: 100%;
+}
+
+hr {
+  width: 920px;
+  color: #C4C4C4;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-width: 1px;
+}
+
+//////////// INTRO -- FIRST BLOCK ////////////
+
+.intro {
+  position: relative;
+  text-align: center;
+  height: 600px;
+  background-color: #161616;
+  width: 100%;
+  overflow: hidden;
+}
+
+#banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#display_pic {
+  height: 200px;
+  width: auto;
+  background: #3D3D3D;
+  border-radius: 3px;
+  border-color: #3D3D3D;
+  top: 36%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#name {
+  font-size: 4rem;
+  position: absolute;
+  float: left;
+  left: 4vw;
+  top: 15px;
+  color: white;
+  margin: 0;
+  letter-spacing: 3px;
+  font-family: "Proxima Nova Light";
+}
+
+.bio-wrapper {
+  position: relative;
+  width: 700px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 200px;
+  color: #F8F8F8;
+  margin-right: auto;
+  margin-left: auto;
+  top: 340px;
+  font-size: 2rem;
+  font-family: "Proxima Nova Light";
+}
+
+//////////// INFO -- REST OF THE SITE ////////////
+
+.info {
+  position: absolute;
+  height: 4000px;
+  width: 100%;
+  background: #ECECEC;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  max-width: 920px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.header {
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  font-family: "Proxima Nova Bold";
+}
+
+//// PROJECTS ////
+
+.projects {
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+
+.project-wrapper {
+  position: relative;
+  width: 700px;
+  height: 350px;
+  margin: 30px auto;
+}
+
+.project-block {
+  position: relative;
+  height: 98%;
+  width: 47%;
+  top: 0;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #181818;
+  background-color: #F3F3F3;
+
+  p {
+    font-family: "Proxima Nova Light";
+    size: 10px;
+    color: #5E5E5E;
+    margin: 15px 21px;
+  }
+}
+
+#football-master {
+  float: left;
+}
+
+#transaction-faker {
+  float: right;
+}
+
+#this-website {
+  float: left;
+}
+
+#academic-projects {
+  float: right;
+}
+
+.project-header {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: "Proxima Nova Light";
+}
+
+.project-image {
+  margin-top: 20px;
+  float: top;
+  height: 55%;
+  width: 80%;
+  background-color: black;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+////////// RESPONSIVE SETTINGS ////////////
+
+@media only screen and (max-width: 1310px) {
+  #name {
+    font-size: 3rem;
+    top: 15px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  #banner {
+    position: absolute;
+    height: 600px;
+    width: auto;
+  }
+
+  #display_pic {
+    width: 20%;
+    min-width: 141px;
+    height: auto;
+  }
+
+  .bio-wrapper {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .bio-wrapper {
+    font-size: 1.75rem;
+    width: 100%;
+  }
+}
