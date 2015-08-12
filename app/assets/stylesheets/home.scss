@@ -41,6 +41,7 @@ hr {
   background-color: #161616;
   width: 100%;
   overflow: hidden;
+  margin-bottom: -20px;
 }
 
 #banner {
@@ -91,11 +92,17 @@ hr {
 
 //////////// INFO -- REST OF THE SITE ////////////
 
-.info {
-  position: absolute;
-  height: 4000px;
+.info_div_1 {
+  position: relative;
   width: 100%;
   background: #ECECEC;
+  text-align: center;
+}
+
+.info_div_2 {
+  position: relative;
+  width: 100%;
+  background: green;
   text-align: center;
 }
 
@@ -144,7 +151,7 @@ hr {
     font-family: "Proxima Nova Light";
     size: 10px;
     color: #5E5E5E;
-    margin: 15px 21px;
+    margin: 10px 21px;
   }
 }
 
@@ -174,7 +181,7 @@ hr {
 }
 
 .project-image {
-  margin-top: 20px;
+  margin-top: 15px;
   float: top;
   height: 55%;
   width: 80%;
@@ -182,6 +189,20 @@ hr {
   position: relative;
   margin-right: auto;
   margin-left: auto;
+}
+
+.view-button {
+  position: relative;
+  font-family: "Proxima Nova Light";
+  color: #F3F3F3;
+  background-color: #262626;
+  border: none;
+  letter-spacing: 3px;
+  font-size: 10px;
+  width: 80px;
+  height: 30px;
+  bottom: 8px;
+  margin: 7px;
 }
 
 ////////// RESPONSIVE SETTINGS ////////////
