@@ -33,6 +33,7 @@ body {
   background-color: #161616;
   width: 100%;
   overflow: hidden;
+  margin-bottom: -20px;
 }
 
 #banner {
@@ -88,9 +89,11 @@ body {
   width: 100%;
   text-align: center;
   background: #F7F7F7;
+  padding-bottom: 50px;
 }
 
 .info_section_2 {
+  padding-top: 15px;
   position: relative;
   width: 100%;
   text-align: center;
@@ -101,6 +104,11 @@ body {
   letter-spacing: 3px;
   margin-bottom: 15px;
   font-family: "Proxima Nova Bold";
+}
+
+.subheader {
+  margin-left: 20px;
+  font-family: "Proxima Nova Light";
 }
 
 //// PROJECTS ////
@@ -191,8 +199,8 @@ body {
   margin: 7px;
 }
 
-//// SKILLS ////
-#skills {
+//// EXPERIENCE ////
+#experience {
   position: relative;
   top: 30px;
   text-align: center;
@@ -201,6 +209,20 @@ body {
   margin-right: auto;
   max-width: 920px;
   height: 1000px;
+}
+
+#experience-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.logo {
+  float: left;
+  width: 70px;
+  height: auto;
+  margin: 10px;
+  padding: 5px;
 }
 
 ////////// RESPONSIVE SETTINGS ////////////
