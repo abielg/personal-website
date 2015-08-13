@@ -24,14 +24,6 @@ body {
   height: 100%;
 }
 
-hr {
-  width: 920px;
-  color: #C4C4C4;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border-width: 1px;
-}
-
 //////////// INTRO -- FIRST BLOCK ////////////
 
 .intro {
@@ -81,38 +73,49 @@ hr {
   width: 700px;
   padding-left: 50px;
   padding-right: 50px;
-  height: 200px;
   color: #F8F8F8;
   margin-right: auto;
   margin-left: auto;
   top: 340px;
   font-size: 2rem;
   font-family: "Proxima Nova Light";
+  p {
+    margin-bottom: 65px;
+  }
+}
+
+.intro-button {
+  position: relative;
+  font-family: "Proxima Nova Light";
+  color: #F3F3F3;
+  background: none;
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+  letter-spacing: 3px;
+  font-size: 10px;
+  width: 100px;
+  height: 35px;
+  bottom: 8px;
+  margin: 7px 30px;
 }
 
 //////////// INFO -- REST OF THE SITE ////////////
 
-.info_div_1 {
+.info_section_1 {
   position: relative;
   width: 100%;
-  background: #ECECEC;
   text-align: center;
+  background: #F7F7F7;
+  padding-bottom: 50px;
 }
 
-.info_div_2 {
+.info_section_2 {
+  padding-top: 15px;
   position: relative;
   width: 100%;
-  background: green;
   text-align: center;
-}
-
-.content {
-  position: relative;
-  max-width: 920px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  background: #EDEDED;
 }
 
 .header {
@@ -121,12 +124,22 @@ hr {
   font-family: "Proxima Nova Bold";
 }
 
+.subheader {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-family: "Proxima Nova Light";
+}
+
 //// PROJECTS ////
 
 .projects {
   position: relative;
   top: 30px;
   text-align: center;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 920px;
 }
 
 .project-wrapper {
@@ -151,7 +164,7 @@ hr {
     font-family: "Proxima Nova Light";
     size: 10px;
     color: #5E5E5E;
-    margin: 10px 21px;
+    margin: 8px 21px;
   }
 }
 
@@ -205,6 +218,80 @@ hr {
   margin: 7px;
 }
 
+//// EXPERIENCE ////
+#experience {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  margin-bottom: -40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 920px;
+  height: 1000px;
+}
+
+#experience-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 20px;
+
+}
+
+#techincal-skills {
+  width: 100%;
+}
+
+.skill-logo {
+  float: left;
+  height: 70px;
+  width: auto;
+  margin: 10px;
+  padding: 5px;
+}
+
+#work-experience {
+  width: 100%;
+  float: left;
+
+  p {
+    font-family: "Proxima Nova Light";
+    size: 10px;
+    color: #5E5E5E;
+    margin: 8px 21px;
+  }
+}
+
+.work-logo {
+  width: 200px;
+  height: auto;
+  padding: 5px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.work-blurb {
+  width: 220px;
+  text-align: center;
+  p {
+    margin: 0;
+  }
+}
+
+#coursework {
+  width: 100%;
+  float: left;
+
+  p {
+    font-family: "Proxima Nova Light";
+    font-size: 16px;
+    color: #5E5E5E;
+    margin: 8px 21px;
+  }
+}
+
+.img-circle{-webkit-border-radius:500px;-moz-border-radius:500px;border-radius:500px}
+
 ////////// RESPONSIVE SETTINGS ////////////
 
 @media only screen and (max-width: 1310px) {
@@ -236,5 +323,23 @@ hr {
   .bio-wrapper {
     font-size: 1.75rem;
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #coursework {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .bio-wrapper {
+    p {
+      margin-bottom: 40px;
+    }
+    .intro-button {
+      bottom: 20px;
+      margin-bottom: 20px;
+    }
   }
 }
