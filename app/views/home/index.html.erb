@@ -4,6 +4,8 @@
   <img src="<%= asset_path('display_pic.png') %>" id="display_pic" class="img-thumbnail">
   <div class="bio-wrapper">
     <p>Stanford CS major from Monterrey, Mexico. CODE2040 Alumnus. Interested in iOS Dev, front end design, startups & photograpy.</p>
+    <button type="button" class="intro-button">RESUME</button>
+    <button type="button" class="intro-button">CONTACT</button>
   </div>
 </div>
 <div class="info_section_1">
@@ -47,18 +49,38 @@
   <div id="experience">
     <h1 class="header">EXPERIENCE</h1>
     <div id="experience-wrapper">
-      <h3 class="subheader">Technical Skills:</h3>
-      <img src="<%= asset_path('logos/swift.png') %>" class="logo" class="img-rounded">
-      <img src="<%= asset_path('logos/objective-c.png') %>" class="logo" class="img-rounded">
-      <img src="<%= asset_path('logos/java.png') %>" class="logo" class="img-rounded">
-      <img src="<%= asset_path('logos/c.png') %>" class="logo" class="img-rounded">
-      <img src="<%= asset_path('logos/cplusplus.png') %>" class="logo" class="img-rounded">
-      <img src="<%= asset_path('logos/html5.png') %>" class="logo" class="img-rounded">
-      <img src="<%= asset_path('logos/css3.png') %>" class="logo" class="img-rounded">
-      <img src="<%= asset_path('logos/ruby.png') %>" class="logo" class="img-rounded">
-      <img src="<%= asset_path('logos/RoR.png') %>" class="logo" class="img-rounded">
-      <img src="<%= asset_path('logos/photoshop.png') %>" class="logo" class="img-rounded">
-      <img src="<%= asset_path('logos/sketch.png') %>" class="logo" class="img-rounded">
+      <div id="technical-skills">
+        <h3 class="subheader">Technical Skills:</h3>
+        <img src="<%= asset_path('logos/swift.png') %>" class="skill-logo" class="img-rounded">
+        <img src="<%= asset_path('logos/objective-c.png') %>" class="skill-logo" class="img-rounded">
+        <img src="<%= asset_path('logos/c.png') %>" class="skill-logo" class="img-rounded">
+        <img src="<%= asset_path('logos/cplusplus.png') %>" class="skill-logo" class="img-rounded">
+        <img src="<%= asset_path('logos/java.png') %>" class="skill-logo" class="img-rounded">
+        <img src="<%= asset_path('logos/ruby.png') %>" class="skill-logo" class="img-rounded">
+        <img src="<%= asset_path('logos/RoR.png') %>" class="skill-logo" class="img-rounded">
+        <img src="<%= asset_path('logos/html5.png') %>" class="skill-logo" class="img-rounded">
+        <img src="<%= asset_path('logos/css3.png') %>" class="skill-logo" class="img-rounded">
+        <img src="<%= asset_path('logos/photoshop.png') %>" class="skill-logo" class="img-rounded">
+        <img src="<%= asset_path('logos/sketch.png') %>" class="skill-logo" class="img-rounded">
+      </div>
+      <div id="work-experience">
+        <h3 class="subheader">Work Experience:</h3>
+        <a href="http://www.carbonfive.com/">
+          <img src="<%= asset_path('logos/c5.png') %>" class="work-logo" class="img-rounded">
+        </a>
+          <div class="work-blurb">
+            <p>Software Engineering Intern<br>June - Aug 2015
+          </div>
+      </div>
+      <div id="coursework">
+        <h3 class="subheader">Coursework:</h3>
+        <p>CS 103: Mathematical Foundations of Computing</p>
+        <p>CS 106A: Programming Methodology</p>
+        <p>CS 106B: Programming Abstractions</p>
+        <p>CS 107: Computer Organization and Systems</p>
+        <p>CS 193P: iPhone and iPad Application Programming</p>
+        <p>CME 100: Vector Calculus for Engineers</p>
+      </div>
     </div>
   </div>
 </div>
