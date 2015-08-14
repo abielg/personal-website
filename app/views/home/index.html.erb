@@ -18,31 +18,36 @@
     <div class="project-wrapper">
       <div id="football-master" class="project-block">
         <h3 class="project-header" id="fm">Football Master</h3>
-        <div class="project-image"></div>
+        <img src="<%= asset_path('projects/football_master.png') %>" class="project-image">
         <p>iOS app written in Objective-C with iAd Network,
             Game Center, and In-App Purchases.</p>
-        <button type="button" class="view-button">VIEW</button>
+        <a href="https://itunes.apple.com/us/app/football-master/id651608590?mt=8" target="_blank">
+          <button type="button" class="view-button">VIEW</button>
+        </a>
       </div>
       <div id="transaction-faker" class="project-block">
         <h3 class="project-header">transaction_faker</h3>
-        <div class="project-image"></div>
-        <p>iOS app written in Objective-C with iAd Network,
-            Game Center, and In-App Purchases.</p>
-        <button type="button" class="view-button">VIEW</button>
+        <img src="<%= asset_path('projects/transaction_faker.png') %>" class="project-image">
+        <p>Ruby gem that creates fake customizeable Plaid Connect users with bank accounts. </p>
+        <a href="https://rubygems.org/gems/transaction_faker" target="_blank">
+          <button type="button" class="view-button">VIEW</button>
+        </a>
       </div>
       <div id="this-website" class="project-block">
         <h3 class="project-header">This Website</h3>
-        <div class="project-image"></div>
-        <p>iOS app written in Objective-C with iAd Network,
-            Game Center, and In-App Purchases.</p>
-        <button type="button" class="view-button">VIEW</button>
+        <img src="<%= asset_path('projects/website.png') %>" class="project-image">
+        <p>HTML, CSS, some Bootstrap.</p>
+        <a href="https://github.com/abielg/personal-website" target="_blank">
+          <button type="button" class="view-button">VIEW</button>
+        </a>
       </div>
       <div id="academic-projects" class="project-block">
         <h3 class="project-header">More on GitHub</h3>
-        <div class="project-image"></div>
-        <p>iOS app written in Objective-C with iAd Network,
-            Game Center, and In-App Purchases.</p>
-        <button type="button" class="view-button">VIEW</button>
+        <img src="<%= asset_path('projects/more.png') %>" class="project-image">
+        <p>Find all source code and some other academic projects.</p>
+        <a href="https://github.com/abielg" target="_blank">
+          <button type="button" class="view-button">VIEW</button>
+        </a>
       </div>
     </div>
   </div>
@@ -89,7 +94,9 @@
 <div class="info_section_3">
     <h1 class="header" ID="reachout-header">CONTACT</h1>
     <div id="reachout-wrapper">
-      <p>abielg@stanford.edu</p>
+      <a href="mailto:abielg@stanford.edu">
+        <p>abielg@stanford.edu</p>
+      </a>
       <a href="https://twitter.com/abiel_g" target="_blank">
         <img src="<%= asset_path('reachout_logos/twitter.png') %>" class="reachout-logo">
       </a>
