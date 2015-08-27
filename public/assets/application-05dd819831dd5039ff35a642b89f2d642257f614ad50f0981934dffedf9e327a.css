@@ -1,0 +1,495 @@
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url("/assets/ProximaNova-Light-0f77660e06a5f61a45c4dbdab511722357cf29e7f5ba1b2cf097550afdb0ed20.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url("/assets/ProximaNova-Bold-b9e81a47aecd3d05445ae775f48d08b3de46b2039f1d229a58a87be194e327ec.otf") format("opentype");
+}
+/* line 14, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  min-width: 320px;
+  min-height: 600px;
+}
+
+/* line 23, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+body {
+  height: 100%;
+}
+
+/* line 29, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.intro {
+  position: relative;
+  text-align: center;
+  height: 600px;
+  background-color: #161616;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: -20px;
+}
+
+/* line 39, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* line 48, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#display_pic {
+  height: 200px;
+  width: auto;
+  background: #3D3D3D;
+  border-radius: 3px;
+  border-color: #3D3D3D;
+  top: 36%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+/* line 60, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#name {
+  font-size: 4rem;
+  position: absolute;
+  float: left;
+  left: 4vw;
+  top: 15px;
+  color: white;
+  margin: 0;
+  letter-spacing: 3px;
+  font-family: "Proxima Nova Light";
+}
+
+/* line 72, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.bio-wrapper {
+  position: relative;
+  width: 700px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #F8F8F8;
+  margin-right: auto;
+  margin-left: auto;
+  top: 340px;
+  font-size: 2rem;
+  font-family: "Proxima Nova Light";
+}
+/* line 83, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.bio-wrapper p {
+  margin-bottom: 65px;
+}
+
+/* line 88, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.intro-button {
+  position: relative;
+  font-family: "Proxima Nova Light";
+  color: #F3F3F3;
+  background: none;
+  border: 1.5px;
+  border-style: solid;
+  border-color: white;
+  letter-spacing: 3px;
+  font-size: 10px;
+  width: 100px;
+  height: 35px;
+  bottom: 8px;
+  margin: 5px 30px;
+}
+
+/* line 106, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.info_section_1 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background: #F7F7F7;
+  padding-bottom: 50px;
+}
+
+/* line 114, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.info_section_2 {
+  padding-top: 15px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background: #EDEDED;
+}
+
+/* line 122, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.info_section_3 {
+  padding-top: 15px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background: #26262a;
+  overflow: auto;
+}
+
+/* line 131, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.header {
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  font-family: "Proxima Nova Bold";
+}
+
+/* line 137, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.subheader {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-family: "Proxima Nova Light";
+}
+
+/* line 145, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.projects {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 920px;
+  overflow: auto;
+}
+
+/* line 156, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.project-wrapper {
+  position: relative;
+  max-width: 780px;
+  margin: 30px auto;
+  overflow: auto;
+}
+
+/* line 163, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.project-block {
+  position: relative;
+  height: 343px;
+  width: 329px;
+  top: 0;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #181818;
+  background-color: #F3F3F3;
+  margin-bottom: 40px;
+}
+/* line 175, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.project-block p {
+  font-family: "Proxima Nova Light";
+  size: 10px;
+  color: #5E5E5E;
+  margin: 8px 21px;
+}
+
+/* line 183, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#football-master {
+  float: left;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+/* line 189, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#transaction-faker {
+  float: right;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+/* line 195, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#this-website {
+  float: left;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+/* line 201, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#academic-projects {
+  float: right;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+/* line 207, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.project-header {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: "Proxima Nova Light";
+}
+
+/* line 216, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.project-image {
+  margin-top: 15px;
+  float: top;
+  height: 55%;
+  width: 80%;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #26262a;
+}
+
+/* line 229, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.view-button {
+  position: absolute;
+  font-family: "Proxima Nova Light";
+  color: #F3F3F3;
+  background-color: #26262a;
+  border: none;
+  letter-spacing: 3px;
+  font-size: 10px;
+  width: 80px;
+  height: 30px;
+  bottom: 12px;
+  margin-right: 0 auto;
+  transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+}
+
+/* line 246, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#experience {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  margin-bottom: -40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 920px;
+  overflow: auto;
+}
+
+/* line 257, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#experience-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* line 264, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#techincal-skills {
+  width: 100%;
+}
+
+/* line 268, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.skill-logo {
+  float: left;
+  height: 70px;
+  width: auto;
+  margin: 10px;
+  padding: 5px;
+}
+
+/* line 276, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#work-experience {
+  width: 100%;
+  float: left;
+}
+/* line 280, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#work-experience p {
+  font-family: "Proxima Nova Light";
+  size: 10px;
+  color: #5E5E5E;
+  margin: 8px 21px;
+}
+
+/* line 288, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.work-logo {
+  width: 200px;
+  height: auto;
+  padding: 5px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+/* line 296, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.work-blurb {
+  width: 220px;
+  text-align: center;
+}
+/* line 299, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.work-blurb p {
+  margin: 0;
+}
+
+/* line 304, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#coursework {
+  width: 100%;
+  float: left;
+  overflow: auto;
+  margin-bottom: 100px;
+}
+/* line 310, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#coursework p {
+  font-family: "Proxima Nova Light";
+  font-size: 16px;
+  color: #5E5E5E;
+  margin: 8px 21px;
+}
+
+/* line 321, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#reachout-header {
+  color: #F5F5F5;
+  margin-bottom: 30px;
+}
+
+/* line 326, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#reachout-wrapper {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+/* line 331, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+#reachout-wrapper p {
+  color: #F5F5F5;
+  font-family: "Proxima Nova Light";
+  font-weight: 100;
+}
+
+/* line 338, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+.reachout-logo {
+  width: 40px;
+  height: auto;
+  margin: 20px 20px;
+}
+
+@media only screen and (max-width: 1310px) {
+  /* line 347, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  #name {
+    font-size: 3rem;
+    top: 15px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  /* line 354, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  #banner {
+    position: absolute;
+    height: 600px;
+    width: auto;
+  }
+
+  /* line 360, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  #display_pic {
+    width: 20%;
+    min-width: 141px;
+    height: auto;
+  }
+
+  /* line 366, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  .bio-wrapper {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 792px) {
+  /* line 372, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  .project-block {
+    margin: 20px auto;
+  }
+
+  /* line 376, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  #football-master {
+    float: none;
+    margin: 20px auto;
+  }
+
+  /* line 381, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  #transaction-faker {
+    float: none;
+    margin: 20px auto;
+  }
+
+  /* line 386, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  #this-website {
+    float: none;
+    margin: 20px auto;
+  }
+
+  /* line 391, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  #academic-projects {
+    float: none;
+    margin: 20px auto;
+  }
+
+  /* line 396, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  .work-logo {
+    width: 150px;
+    height: auto;
+    margin-left: 35px;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 655px) {
+  /* line 405, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  .bio-wrapper {
+    font-size: 1.75rem;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  /* line 413, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  #coursework p {
+    font-size: 14px;
+  }
+
+  /* line 419, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  .bio-wrapper p {
+    margin-bottom: 40px;
+  }
+  /* line 422, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  .bio-wrapper .intro-button {
+    bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 462px) {
+  /* line 430, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  .bio-wrapper {
+    font-size: 1.5rem;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* line 437, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  .project-block {
+    width: 270px;
+    height: 320px;
+    font-size: 1.10rem;
+  }
+  /* line 442, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  .project-block p {
+    padding-top: 3px;
+  }
+
+  /* line 447, /Users/Abiel/Documents/Development/projects/personal-website/app/assets/stylesheets/home.scss */
+  .reachout-logo {
+    margin: 10px 10px;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
