@@ -424,6 +424,25 @@ body {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 462px) {
+  .bio-wrapper {
+    font-size: 1.5rem;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
+  .project-block {
+    width: 270px;
+    height: 320px;
+    font-size: 1.10rem;
+
+    p {
+      padding-top: 3px;
+    }
+  }
+
+  .reachout-logo {
+    margin: 10px 10px;
+  }
 }
