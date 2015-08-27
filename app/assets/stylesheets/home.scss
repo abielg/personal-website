@@ -54,6 +54,7 @@ body {
   top: 36%;
   position: absolute;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
 
 #name {
@@ -238,6 +239,7 @@ body {
   bottom: 12px;
   margin-right: 0 auto;
   transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
 }
 
 //// EXPERIENCE ////
