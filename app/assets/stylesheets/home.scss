@@ -53,9 +53,9 @@ body {
   border-color: #3D3D3D;
   top: 36%;
   position: absolute;
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-100px, -100px);
 }
 
 #name {
